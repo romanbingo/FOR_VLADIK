@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    height: 800px;
+    background: blue;
+}
+.innerbox{
+    height: 800px;
+    width: 65%;
+    margin: 0 200px;
+    /*padding: 0 30px;*/
+    background: white;
+}
+.logo{
+    width: 30%;
+    float: left;
+}
+.contacts{
+    text-align: right; 
+    padding: 0 30px;
+    float: right;
+    color: blue
+}
+.contacts a{
+    color: blue;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.sign a{
+      display: inline-block;
+      float: right;
+      padding: 0 49px 0 0;
+      text-decoration: none;
+      color: blue;
+}
+.image{
+      width: 100%;
+}
+#menu ul{
+    font: 14px Arial;
+    position: relative;
+}
+#menu ul ul{
+    display: none;
+    position: absolute;
+}
+#menu ul li:hover> ul{
+    display: block;
+}
+#menu ul li{
+    float: left;
+    list-style: none;
+    width: 136px;
+    text-align: center;
+}
+#menu li a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    background: #575757;
+    padding: 10px;
+    border-bottom: 2px solid #626262;
+}
+#menu li a:hover{
+   color: #575757;
+   background: #c0c0c0;
+   transition: 0.5s; 
+}
+#menu ul ul li{
+    float: none;
+    position: relative;
+}
+#menu ul ul ul{
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+.firstwidth{
+    width: 145px;
+    margin: 0 0 0 3px;
+}
+.column1{
+    text-align: center;
+    margin: 0 3px;
+    float: left;
+    width: 30%;
+    height: 385px;
+    background: cadetblue;
+}
+.column2{
+    text-align: center;
+    margin: 0 3px;
+    float: right;
+    width: 30%;
+    height: 385px;
+    background: cadetblue;
+}
